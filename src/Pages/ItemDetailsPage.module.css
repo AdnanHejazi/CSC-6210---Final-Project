@@ -1,0 +1,44 @@
+/* 
+  This CSS module styles the item details page to provide a clear, focused view of each item's information.
+  The container is centered with fixed dimensions and soft borders to create separation,
+  while typography settings ensure a clear visual hierarchy. The back link is styled with a subtle hover effect for intuitive navigation.
+*/
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1F2937;
+}
+.type {
+  font-size: 1rem;
+  color: #6B7280;
+  margin-bottom: 0.5rem;
+}
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #4B5563;
+}
+.contact, .location {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+.backLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #3B82F6;
+  text-decoration: none;
+}
+.backLink:hover {
+  text-decoration: underline;
+}

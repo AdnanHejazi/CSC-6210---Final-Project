@@ -1,0 +1,44 @@
+/* 
+  This CSS module provides styling for the registration page.
+  We focus on creating a clean and minimalistic interface to help users register without distraction.
+  The container is centered and clearly delineated to draw focus to the form,
+  while uniform input and button styles ensure consistency and ease of use.
+*/
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1F2937;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+}
+.button {
+  background-color: #d3c636;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: #685d0e;
+}
